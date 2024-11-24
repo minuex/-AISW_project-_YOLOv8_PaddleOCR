@@ -1,5 +1,3 @@
-# -AISW_project-_YOLOv8_PaddleOCR
-
 # YOLOv8 and PaddleOCR Integration for Receipt Key Information Extraction
 
 This project combines YOLOv8 and PaddleOCR to detect and extract key information from receipt images. The system identifies specific regions on the receipt, such as store name, date/time, items, and total amount, using YOLOv8, and then recognizes text in these regions using PaddleOCR.
