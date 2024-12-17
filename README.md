@@ -16,8 +16,8 @@ This project combines YOLOv8 and PaddleOCR to detect and extract key information
 - `best.pt`: YOLOv8 trained model for detecting receipt regions (not included; download link provided below).
 - `PretendardVariable.ttf`: Korean font file used for text visualization.
 - `test_image.jpeg`: Sample test image of a receipt for demonstration.
-- AISW_project/
-│
+
+AISW_project/
 ├── dataset/
 │   ├── train/
 │   │   ├── images/      # 훈련 이미지 파일들이 저장되는 디렉토리
@@ -28,7 +28,7 @@ This project combines YOLOv8 and PaddleOCR to detect and extract key information
 │   │   │   ├── image1.txt
 │   │   │   ├── image2.txt
 │   │   │   └── ...      # 기타 훈련 이미지와 매칭되는 라벨 파일들
-│   │
+│
 │   ├── valid/
 │   │   ├── images/      # 검증 이미지 파일들이 저장되는 디렉토리
 │   │   │   ├── image3.jpg
@@ -40,6 +40,7 @@ This project combines YOLOv8 and PaddleOCR to detect and extract key information
 │   │   │   └── ...      # 기타 검증 이미지와 매칭되는 라벨 파일들
 │
 ├── best.pt               # 학습된 YOLO 모델 가중치 파일
+
 
 
 ## Requirements
