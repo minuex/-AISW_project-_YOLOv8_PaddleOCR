@@ -1,5 +1,4 @@
 # **Receipt OCR solutions for document automation**  
-**(문서 자동화를 위한 영수증 OCR 솔루션)**  
 
 ## **프로젝트 개요**  
 본 프로젝트는 **YOLOv8**과 **PaddleOCR**를 활용하여 영수증 이미지에서 주요 정보를 검출하고 구조화된 데이터로 변환하는 AI 모델을 구현하는 것입니다.  
