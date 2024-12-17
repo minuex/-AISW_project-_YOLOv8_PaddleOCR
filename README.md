@@ -34,15 +34,15 @@ pip install paddleocr
 ```plaintext
 AISW_project/
 ├── dataset/
-│   ├── train/         # 훈련 데이터셋
-│   │   ├── images/    # 훈련 이미지 파일들
-│   │   ├── labels/    # 훈련 라벨 파일들 (YOLO 포맷)
-│   ├── valid/         # 검증 데이터셋
-│   │   ├── images/    # 검증 이미지 파일들
-│   │   ├── labels/    # 검증 라벨 파일들
-├── best.pt            # 학습된 YOLOv8 모델 가중치 파일
-├── main.py            # 프로젝트 실행 코드
-└── README.md          # 프로젝트 설명 파일
+│   ├── train/            # 훈련 데이터셋
+│   │   ├── images/       # 훈련 이미지 파일들
+│   │   ├── labels/       # 훈련 라벨 파일들 (YOLO 포맷)
+│   ├── valid/            # 검증 데이터셋
+│   │   ├── images/       # 검증 이미지 파일들
+│   │   ├── labels/       # 검증 라벨 파일들
+├── best.pt               # 학습된 YOLOv8 모델 가중치 파일
+├── YOLO_PaddleOCR.ipynb  # 프로젝트 실행 코드
+└── README.md             # 프로젝트 설명 파일
 ```
 
 ---
